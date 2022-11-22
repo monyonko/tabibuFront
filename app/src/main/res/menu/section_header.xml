@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/app_name"
+        android:id="@+id/header_app_title"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title=""
+        android:id="@+id/header_search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/searching"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:title=""
+        android:id="@+id/header_profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:onClick=""
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/docs"
+        android:title="Documents"
+        android:icon="@drawable/docs"
+        android:onClick=""
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/calls"
+        android:title="Calls"
+        android:icon="@drawable/call"
+        android:onClick=""
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/messages"
+        android:title="Messages"
+        android:icon="@drawable/messages"
+        android:onClick=""
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/appointments"
+        android:title="string"
+        android:icon="@drawable/schedule"
+        android:onClick=""
+        app:showAsAction="always"
+        />
+
+</menu>
